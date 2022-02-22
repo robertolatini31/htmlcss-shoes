@@ -13,6 +13,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
 }
 
 main {
@@ -58,14 +60,16 @@ main {
 }
 
 .text_product {
-    font-size: 6vh;
+    font-size: 9vh;
     text-transform: uppercase;
     padding-bottom: 3rem;
 }
 
 .change_product {
-    line-height: 10px;
+    line-height: 15px;
     display: inline-block;
+    font-size: 12px;
+    padding: 2rem;
 }
 .change_product>ul {
     text-decoration: none;
@@ -77,9 +81,12 @@ main {
     padding: 10px;
     background-color: var(--bgbutton_link-color);
     border-radius: 50%;
+    margin: 5px;
 }
+
 
 li>a {
     text-decoration: none;
     color: var(--button_link-color);
+    padding: 5px;
 }
